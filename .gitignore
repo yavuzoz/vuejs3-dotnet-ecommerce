@@ -1,1 +1,6 @@
+# Ignore appsettings files
 /API/appsettings.Development.json
+
+# Ignore bin and obj directories
+/API/bin/
+/API/obj/
