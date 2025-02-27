@@ -1,7 +1,4 @@
-using Microsoft.Extensions.Options;
-using Swashbuckle.AspNetCore.SwaggerUI;
-using Microsoft.OpenApi.Models;
-using API.Entity;
+
 using Microsoft.EntityFrameworkCore;
 using API.Data;
 

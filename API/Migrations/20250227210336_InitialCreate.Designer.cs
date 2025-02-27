@@ -3,6 +3,7 @@ using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20250227210336_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -60,7 +63,7 @@ namespace API.Migrations
                             IsActive = true,
                             Name = "Product 1",
                             PictureUrl = "url1.jpg",
-                            Price = 100.00m,
+                            Price = 100m,
                             Stock = 10
                         },
                         new
@@ -70,7 +73,7 @@ namespace API.Migrations
                             IsActive = true,
                             Name = "Product 2",
                             PictureUrl = "url2.jpg",
-                            Price = 200.00m,
+                            Price = 200m,
                             Stock = 20
                         },
                         new
@@ -80,7 +83,7 @@ namespace API.Migrations
                             IsActive = true,
                             Name = "Product 3",
                             PictureUrl = "url3.jpg",
-                            Price = 300.00m,
+                            Price = 300m,
                             Stock = 30
                         },
                         new
@@ -90,7 +93,7 @@ namespace API.Migrations
                             IsActive = false,
                             Name = "Product 4",
                             PictureUrl = "url4.jpg",
-                            Price = 400.00m,
+                            Price = 400m,
                             Stock = 40
                         },
                         new
@@ -100,7 +103,7 @@ namespace API.Migrations
                             IsActive = true,
                             Name = "Product 5",
                             PictureUrl = "url5.jpg",
-                            Price = 500.00m,
+                            Price = 500m,
                             Stock = 50
                         });
                 });
