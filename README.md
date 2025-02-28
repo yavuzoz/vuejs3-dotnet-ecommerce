@@ -33,8 +33,8 @@ This is a full-stack e-commerce application built with .NET Core for the backend
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yavuzoz/NetCoreApi-VueJs3-EcommerceApp.git
-   cd NetCoreApi-VueJs3-EcommerceApp
+   git clone https://github.com/yavuzoz/vuejs3-dotnet-ecommerce.git
+   cd uejs3-dotnet-ecommerce
    ````
 
 2. Navigate to the API project directory:
