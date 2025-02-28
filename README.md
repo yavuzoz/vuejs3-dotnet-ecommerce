@@ -125,7 +125,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-```
-
-Bu README dosyası, projenizin genel özelliklerini, kullanılan teknolojileri, kurulum adımlarını ve proje yapısını açıklamaktadır. README dosyasını projenizin kök dizinine `README.md` adıyla kaydedebilirsiniz. Bu şekilde, projenizi klonlayan veya kullanmak isteyen kişiler için gerekli tüm bilgileri sağlamış olursunuz.
-Bu README dosyası, projenizin genel özelliklerini, kullanılan teknolojileri, kurulum adımlarını ve proje yapısını açıklamaktadır. README dosyasını projenizin kök dizinine `README.md` adıyla kaydedebilirsiniz. Bu şekilde, projenizi klonlayan veya kullanmak isteyen kişiler için gerekli tüm bilgileri sağlamış olursunuz.
