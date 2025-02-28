@@ -1,20 +1,14 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import './assets/main.css'
-</script>
-
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-  <RouterView />
+  <div>
+    <Header />
+    <RouterView />
+  </div>
 </template>
 
-<style scoped>
+<script setup>
+import Header from './components/Header.vue';
+</script>
 
+<style scoped>
+/* Stil dosyalarınız burada */
 </style>
